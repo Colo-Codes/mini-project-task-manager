@@ -1,0 +1,40 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: lightblue;
+
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    width: 80%;
+  }
+
+  .toDoTasksContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcoral;
+    width: 80%;
+  }
+
+  .doingTasksContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+    width: 80%;
+  }
+
+  .doneTasksContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    width: 80%;
+  }
+}
