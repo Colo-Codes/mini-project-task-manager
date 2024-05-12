@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+  0. Global styles
+*/
+:root {
+  /* Spacing and Sizing */
+  --max-width: 1200px;
+  --main-element-height: 40px;
+
+  /* Borders and Shadows */
+  --main-border-radius: 5px;
+
+  /* Colors */
+  --header-color: #ffffff;
+  --header-bg-color: #000000;
+  --header-button-bg-color: #656f7d;
+
+  /* Fonts */
+  --font-default-family: 'Roboto', sans-serif;
+  --font-default-size: 16px;
+  --font-default-weight: 400;
+  --font-default-height: 1.5;
+  --font-default-style: normal;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -20,7 +46,12 @@
   4. Improve text rendering
 */
 body {
-  line-height: 1.5;
+  font-family: var(--font-default-family);
+  font-size: var(--font-default-size);
+  font-weight: var(--font-default-weight);
+  line-height: var(--font-default-height);
+  font-style: var(--font-default-style);
+
   -webkit-font-smoothing: antialiased;
 }
 
@@ -65,11 +96,4 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
-}
-
-/*
-  9. Global styles
-*/
-:root {
-  --max-width: 1200px;
 }

@@ -1,9 +1,12 @@
 import styles from './App.module.css';
+import Header from './components/header/Header';
 
 export default function App() {
   return (
     <main className={styles.mainContainer}>
-      <header className={styles.headerContainer}>This is the header</header>
+      <header className={styles.headerContainer}>
+        <Header />
+      </header>
       <section className={styles.toDoTasksContainer}>
         List of TO DO tasks
       </section>
