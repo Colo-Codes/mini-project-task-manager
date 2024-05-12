@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     background-color: lightgreen;
-    width: 80%;
+    width: var(--max-width);
   }
 
   .toDoTasksContainer {
@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     background-color: lightcoral;
-    width: 80%;
+    width: var(--max-width);
   }
 
   .doingTasksContainer {
@@ -30,7 +30,7 @@
     align-items: center;
     justify-content: center;
     background-color: lightgoldenrodyellow;
-    width: 80%;
+    width: var(--max-width);
   }
 
   .doneTasksContainer {
@@ -39,6 +39,6 @@
     align-items: center;
     justify-content: center;
     background-color: lightgray;
-    width: 80%;
+    width: var(--max-width);
   }
 }
