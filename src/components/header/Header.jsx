@@ -1,8 +1,15 @@
 import styles from './styles/Header.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSquarePollHorizontal } from '@fortawesome/free-solid-svg-icons';
+
 export default function Header() {
   return (
     <header>
       <div className={styles.titleContainer}>
+        <FontAwesomeIcon
+          className={styles.logo}
+          icon={faSquarePollHorizontal}
+        />
         <h1>TaskManager</h1>
       </div>
       <div className={styles.myAndAllTasksContainer}>
