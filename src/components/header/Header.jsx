@@ -1,6 +1,10 @@
 import styles from './styles/Header.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquarePollHorizontal } from '@fortawesome/free-solid-svg-icons';
+import {
+  faSquarePollHorizontal,
+  faSquarePlus,
+} from '@fortawesome/free-solid-svg-icons';
+import Button from './Button';
 
 export default function Header() {
   return (
@@ -18,7 +22,12 @@ export default function Header() {
       </div>
 
       <div className={styles.addTaskContainer}>
-        <button className={styles.addTaskButton}>Add Task</button>
+        {/* TODO: implement proper onClick */}
+        <Button
+          icon={<FontAwesomeIcon icon={faSquarePlus} />}
+          text='Add Task'
+          onClick={() => console.log('clicked')}
+        />
       </div>
     </header>
   );

@@ -1,0 +1,24 @@
+.button {
+  background: var(--header-button-bg-color);
+  color: var(--header-color);
+  border: none;
+  padding: 5px 10px;
+
+  .buttonIcon {
+    margin-right: 5px;
+  }
+
+  .buttonText {
+    text-transform: uppercase;
+    font-weight: var(--font-button-primary-weight);
+  }
+
+  &:hover {
+    background: var(--header-button-bg-hover-color);
+    cursor: pointer;
+  }
+
+  &:active {
+    background: var(--header-button-bg-color);
+  }
+}

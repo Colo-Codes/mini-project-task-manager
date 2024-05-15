@@ -15,6 +15,7 @@
   --header-color: #ffffff;
   --header-bg-color: #000000;
   --header-button-bg-color: #656f7d;
+  --header-button-bg-hover-color: #4d5560;
 
   /* Fonts */
   --font-default-family: 'Roboto', sans-serif;
@@ -23,6 +24,8 @@
   --font-default-height: 1.5;
   --font-default-style: normal;
   --font-header-size: 36px;
+  --font-button-primary-weight: 600;
+  --font-button-secondary-weight: 100;
 }
 
 /*
