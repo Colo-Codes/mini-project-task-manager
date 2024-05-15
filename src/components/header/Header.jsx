@@ -15,11 +15,6 @@ export default function Header() {
       textSecondary: 'Tasks',
       onClick: () => console.log('left clicked'),
     },
-    centerGroup: {
-      textPrimary: 'Test',
-      textSecondary: 'Text',
-      onClick: () => console.log('center clicked'),
-    },
     right: {
       textPrimary: 'All',
       textSecondary: 'Tasks',
