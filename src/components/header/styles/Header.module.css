@@ -3,9 +3,10 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  height: var(--main-element-height);
 
   .titleContainer {
-    height: var(--main-element-height);
+    height: 100%;
     background-color: var(--header-bg-color);
     color: var(--header-color);
     border-radius: var(--main-border-radius);
@@ -30,19 +31,10 @@ header {
     display: flex;
     align-items: center;
     margin: 0 1rem;
-
-    button {
-      width: max-content;
-      height: var(--main-element-height);
-      border-radius: var(--main-border-radius);
-    }
+    height: 100%;
   }
 
   .addTaskContainer {
-    button {
-      width: max-content;
-      height: var(--main-element-height);
-      border-radius: var(--main-border-radius);
-    }
+    height: 100%;
   }
 }

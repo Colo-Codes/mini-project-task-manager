@@ -1,0 +1,48 @@
+.leftButton,
+.centerGroupButton,
+.rightButton {
+  background: var(--header-button-bg-color);
+  color: var(--header-color);
+  border: none;
+  padding: 5px 10px;
+  height: 100%;
+  width: max-content;
+
+  .primaryText,
+  .secondaryText {
+    text-transform: uppercase;
+  }
+
+  .primaryText {
+    font-weight: var(--font-button-primary-weight);
+    margin-right: 5px;
+  }
+
+  .secondaryText {
+    font-weight: var(--font-button-secondary-weight);
+  }
+
+  &:hover {
+    background: var(--header-button-bg-hover-color);
+    cursor: pointer;
+  }
+
+  &:active {
+    background: var(--header-button-bg-color);
+  }
+}
+
+.leftButton {
+  border-top-left-radius: var(--main-border-radius);
+  border-bottom-left-radius: var(--main-border-radius);
+  border-right: 1px solid var(--header-button-bg-hover-color);
+}
+
+.centerGroupButton {
+  border-right: 1px solid var(--header-button-bg-hover-color);
+}
+
+.rightButton {
+  border-top-right-radius: var(--main-border-radius);
+  border-bottom-right-radius: var(--main-border-radius);
+}

@@ -3,6 +3,9 @@
   color: var(--header-color);
   border: none;
   padding: 5px 10px;
+  height: 100%;
+  width: max-content;
+  border-radius: var(--main-border-radius);
 
   .buttonIcon {
     margin-right: 5px;
